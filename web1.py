@@ -29,3 +29,4 @@ soup=BeautifulSoup(page,"html.parser")
 for tag in soup.find_all("p"):
     #앞뒤에 존나긴 공백문자를 제거하려면 .strip()
     print(tag.text.strip())
+
